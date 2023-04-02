@@ -1,0 +1,613 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+# Multi/Sub Material__35 (8) to come 
+#
+newmtl BaseArm.smooth01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl BaseArm.Flat01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl BaseArm.ArchBack01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl BaseArm.ArchFront01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+map_Kd basearm.tga
+#
+newmtl BaseArm.NurnieFlat01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl BaseArm.Light01
+Ka  0.4 0.0 0.0
+Kd  0.4 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl BaseArm.LightRing01
+Ka  0.2 0.2 0.3
+Kd  0.2 0.2 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.8
+illum 2
+#
+newmtl BaseArm.Bolts01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+# Multi/Sub Material__35 done 
+#
+# Multi/Sub Material__51 (15) to come 
+#
+newmtl BaseSideBoxBolts01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Base.flat01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Base.smooth01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Base.matte01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl BaseExtension.yellow01
+Ka  0.5 0.5 0.0
+Kd  0.5 0.5 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl BaseExtension.matte01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl BaseExtension.smooth01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Connector01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Connector.Pipe01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Connector.Tube01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  4.8
+illum 2
+#
+newmtl Connector.Base01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl BaseSwivel.square01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl BaseSwivel.Bottom01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl BaseSwivel.discs01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  4.0
+illum 2
+#
+newmtl BaseSwivel.Top01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+# Multi/Sub Material__51 done 
+#
+# Multi/Sub Material__46 (10) to come 
+#
+newmtl ForeArm.DarkFlat01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl ForeArm.DarkSmooth01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl ForeArm.Flat01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl ForeArm.Matte01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl ForeArm.Smooth01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl ForeArmNurnieTop01
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl ForeArmNurnieBase01
+Ka  0.4 0.4 0.4
+Kd  0.4 0.4 0.4
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl ForeArmBolts01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  4.5
+illum 2
+#
+newmtl ForeArmLabel.R01
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.0
+illum 2
+map_Kd armlogo.tga
+#
+newmtl ForeArmLabel.L01
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  1.0
+illum 2
+map_Kd armlogo.tga
+#
+# Multi/Sub Material__46 done 
+#
+# Multi/Sub Material__58 (11) to come 
+#
+newmtl Ground.Rail01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl Ground.RailTops01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl Ground.PowerConduit01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.6
+illum 2
+#
+newmtl Ground.PowerPipe01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  4.0
+illum 2
+#
+newmtl Ground.PowerBox01
+Ka  0.5 0.4 0.3
+Kd  0.5 0.4 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  4.0
+illum 2
+#
+newmtl Ground.PowerBoxDetail01
+Ka  0.4 0.3 0.1
+Kd  0.4 0.3 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  4.0
+illum 2
+#
+newmtl Ground.BoltHeads01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.6
+illum 2
+#
+newmtl Ground.Plate01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.0
+illum 2
+#
+newmtl Ground.Crack01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.8
+illum 2
+#
+newmtl Ground.WarningStripes01
+Ka  0.9 0.8 0.2
+Kd  0.9 0.8 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  3.0
+illum 2
+map_Kd warningstripe.tga
+#
+newmtl Ground01
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  2.0
+illum 2
+#
+# Multi/Sub Material__58 done 
+#
+# Multi/Sub Material__69 (2) to come 
+#
+newmtl Hand1.Flat01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Hand1.smooth01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+# Multi/Sub Material__69 done 
+#
+newmtl Hand2.smoothmatte01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+# Multi/Sub Material__25 (4) to come 
+#
+newmtl Hand3.Dark01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Hand3.Tube01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  7.0
+illum 2
+#
+newmtl Hand3.Smooth01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Hand3.WeldTip01
+Ka  0.2 0.1 0.1
+Kd  0.2 0.1 0.1
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  3.0
+illum 2
+map_Kd weldtip2.tga
+map_Ks weldtip2.tga
+#
+# Multi/Sub Material__25 done 
+#
+# Multi/Sub Material__26 (2) to come 
+#
+newmtl RackHook.Bolt01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl RackHook01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+# Multi/Sub Material__26 done 
+#
+newmtl RackHook01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl MainLogo01
+Ka  0.4 0.3 0.1
+Kd  0.4 0.3 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.5
+illum 2
+#
+# Multi/Sub Material__27 (7) to come 
+#
+newmtl Platform.nurniediscs01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl Default01
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Platform.nurniebolts01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Platform.round01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Platform.round02
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl Platform.flat01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl Platform.bolts01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+# Multi/Sub Material__27 done 
+#
+# Multi/Sub Material__57 (4) to come 
+#
+newmtl Rack.Track01
+Ka  0.5 0.5 0.5
+Kd  0.5 0.5 0.5
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  2.0
+illum 2
+#
+newmtl Rack.Bolts01
+Ka  0.2 0.2 0.2
+Kd  0.2 0.2 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl Rack01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+newmtl Rack.CrossBrace01
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  5.0
+illum 2
+#
+# Multi/Sub Material__57 done 
+#
+newmtl TriLogo01
+Ka  0.1 0.1 0.2
+Kd  0.1 0.1 0.2
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  8.0
+illum 2
+#
+newmtl WindowBlock01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl WarningLightBase01
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  6.0
+illum 2
+#
+newmtl WarningLightDome01
+Ka  0.6 0.6 0.0
+Kd  0.6 0.6 0.0
+Ks  1.0 1.0 1.0
+d  0.1
+Ns  3.0
+illum 2
+#
+newmtl WarningLightSpinner01
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  1.0 1.0 1.0
+d  1.0
+Ns  10.0
+illum 2
+#
+# EOF

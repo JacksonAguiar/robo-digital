@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://robotic_arm.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Spatial.gd" type="Script" id=2]
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="Position3D" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6.194, 2.335 )
+
+[node name="Position3DTarget" type="Position3D" parent="Position3D"]
+transform = Transform( 0.965921, 0, 0.258836, 0, 1, 0, -0.258836, 0, 0.965921, 0, 0, 0 )
+
+[node name="cube" type="CSGBox" parent="."]
+transform = Transform( 4.02918, 0, 0, 0, 4.02918, 0, 0, 0, 4.02917, 0.0183792, -0.116074, 0.0711594 )
+
+[node name="robot_skeleton" type="Skeleton" parent="."]
+transform = Transform( 0.900705, -0.0174524, 0.43408, 0.0232964, 0.999695, -0.00814611, -0.433806, 0.0174497, 0.900837, 0.839844, 1.79571, 0.0018909 )
+visible = false
+
+[node name="robotic_arm" type="MeshInstance" parent="robot_skeleton"]
+transform = Transform( 0.0156582, 2.81943e-11, 0.00091825, -3.63798e-11, 0.0165205, 0, -0.000897636, 2.91038e-11, 0.0160178, -0.348288, 1.68799, 1.17374 )
+visible = false
+mesh = ExtResource( 1 )
+skeleton = NodePath("../..")
+
+[node name="SkeletonIK" type="SkeletonIK" parent="robot_skeleton"]
+process_priority = 1
+target_node = NodePath("../../Position3D/Position3DTarget")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -0.168266, -9.09495e-13, 0.985742, 3.44089e-05, 1, 5.87359e-06, -0.985742, 3.49066e-05, -0.168266, 87.5578, 11.6057, -15.8676 )
+
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]
